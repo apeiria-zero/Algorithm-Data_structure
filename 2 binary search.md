@@ -22,6 +22,7 @@ Tags: sort
 
 たとえば、次のようなデータからデータの50を２分探索する場合を考えてみる。
 
+![2%20binary%20search.png](2%20binary%20search.png)
 
     #include <stdio.h>
     
