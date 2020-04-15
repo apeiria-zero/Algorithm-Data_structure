@@ -2,6 +2,7 @@
 
 Created: Apr 15, 2020 3:38 PM
 Property: ape iria
+Property 2: No
 Tags: Algorithm
 
 - left は常に条件を満たさない
