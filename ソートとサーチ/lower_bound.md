@@ -5,9 +5,11 @@ Property: ape iria
 Property 2: No
 Tags: Algorithm
 
-- left は常に条件を満たさない
-- right は常に条件を満たす
-- right - left = 1 になるまで範囲を狭める (最後は right が条件を満たす最小)
+left は常に条件を満たさない
+
+right は常に条件を満たす
+
+right - left = 1 になるまで範囲を狭める (最後は right が条件を満たす最小)
 
     #include <stdio.h>
     #include <stdbool.h>
