@@ -27,7 +27,7 @@ right - left = 1 になるまで範囲を狭める (最後は right が条件を
         int right = N+1;
     
         while(right - left>1){
-            int mid = left + (right - left)/2;
+            int mid = left + (left - right)/2;
             if(isOK(mid,key)) right=mid;
             else left = mid;
         }
@@ -41,3 +41,8 @@ right - left = 1 になるまで範囲を狭める (最後は right が条件を
         ans=binary_search(key);
         printf("%d ",ans);
     }
+
+実行例
+
+    search data >55
+    6
